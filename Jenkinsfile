@@ -44,7 +44,7 @@ pipeline {
                 echo 'Checking out code from Git...'
                 cleanWs()
                 git branch: 'main',
-                    url: 'https://github.com/sunnysavita10/automated-research-report-generation.git'
+                    url: 'https://github.com/yxkhan/automated-research-report-generation.git'
             }
         }
 
